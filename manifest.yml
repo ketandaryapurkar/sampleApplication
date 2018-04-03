@@ -1,0 +1,6 @@
+---
+applications:
+  - name: MTC_CabService
+    buildpack: https://github.com/cloudfoundry/buildpack-nodejs.git
+    memory: 512M
+    command: node startUser.js
